@@ -1,10 +1,6 @@
 /* Global site styles */
 
 
-.navbar {
-    position: fixed;
-}
-
 /* Navbar text color: #3b2f2f */
 .navbar .navbar-brand,
 .navbar .nav-link {

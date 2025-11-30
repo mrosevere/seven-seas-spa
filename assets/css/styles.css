@@ -1,6 +1,6 @@
 /* Global site styles */
 html {
-  scroll-padding-top: 70px; /* adjust to your navbar height */
+  scroll-padding-top: 60px; /* adjust to your navbar height */
 }
 
 
@@ -117,11 +117,6 @@ html {
 }
 .site-footer .footer-right .social:hover {
   color: #fff;
-}
-
-/* Prevent page content from being covered by fixed footer */
-body {
-  padding-bottom: 72px; /* footer height + some spacing */
 }
 
 

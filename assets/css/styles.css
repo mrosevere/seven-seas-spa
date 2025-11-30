@@ -1,0 +1,17 @@
+/* Global site styles */
+
+/* Navbar text color: #3b2f2f */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #3b2f2f !important;
+}
+.navbar .nav-link:focus,
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #3b2f2f !important;
+}
+
+/* Make the active nav item bold for clear active state */
+.navbar .nav-link.active {
+  font-weight: 700 !important;
+}

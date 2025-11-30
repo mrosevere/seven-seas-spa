@@ -43,7 +43,8 @@ html {
 
 /* Button color */
 .btn {
-  color: #3b2f2f;
+  /* color: #3b2f2f; */
+  color:#ffebd4;
 }
 
 /* Service card images: make full card width, fixed height, preserve aspect */

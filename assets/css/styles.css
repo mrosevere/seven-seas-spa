@@ -1,5 +1,10 @@
 /* Global site styles */
 
+
+.navbar {
+    position: fixed;
+}
+
 /* Navbar text color: #3b2f2f */
 .navbar .navbar-brand,
 .navbar .nav-link {
@@ -91,6 +96,33 @@
 .testimonials-section .testimonial-author {
   margin-top: 0.75rem;
   color: #666;
+}
+
+/*  footer */
+.site-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #6f4e37;
+  color: #ffebd4;
+  padding: 12px 20px;
+  z-index: 2000;
+}
+.site-footer .footer-left small {
+  color: #ffebd4;
+}
+.site-footer .footer-right .social {
+  color: #ffebd4;
+  margin-left: 12px;
+  font-size: 1.05rem;
+}
+.site-footer .footer-right .social:hover {
+  color: #fff;
+}
+
+/* Prevent page content from being covered by fixed footer */
+body {
+  padding-bottom: 72px; /* footer height + some spacing */
 }
 
 

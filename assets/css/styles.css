@@ -1,4 +1,7 @@
 /* Global site styles */
+html {
+  scroll-padding-top: 70px; /* adjust to your navbar height */
+}
 
 
 /* Navbar text color: #3b2f2f */

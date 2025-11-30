@@ -29,6 +29,14 @@ html {
   padding: 100px 0;
 }
 
+.hero-services {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Copilot_20251130_204904.png") no-repeat center center;
+  background-size: cover;
+  color: #ffebd4;
+  padding: 100px 0;
+}
+
 .hero-section h1 {
   font-family: "Handlee", cursive;
 }
